@@ -1,11 +1,11 @@
 <gcard>
 	<!-- target. Notice variation give the target type. Can be: lH2, lD2, ND3 -->
-	<detector name="experiments/clas12/targets/target" factory="TEXT" variation="bonus"/>
+	<!--<detector name="experiments/clas12/targets/target" factory="TEXT" variation="bonus"/> -->
 
 	<!--radiator-->
 	<!--detector name="experiments/clas12/radiator/radiator" factory="TEXT" variation="original"/-->
 	<!-- central detectors 	-->
-	<detector name="experiments/clas12/rtpc/rtpc"             factory="TEXT" variation="original"/>
+	<detector name="experiments/rtpc/rtpc"             factory="TEXT" variation="original"/>
 	<!--detector name="experiments/clas12/photon/photon" factory="TEXT"  variation="original"/-->
 	<!--detector name="experiments/clas12/calo/calo" factory="TEXT"  variation="original"/-->
 
@@ -17,7 +17,7 @@
 	
 	<!--option name="PHYSICS" value="FTFP_BERT + STD + Optical"/-->
 	<!--option name="OUTPUT"   value="evio, Nine_Percent_with_Coll.ev"/-->
-	<option name="OUTPUT"   value="evio, PID_Test.ev"/>
+	<option name="OUTPUT"   value="txt, PID_Test.txt"/>
 
 
 

@@ -1,0 +1,581 @@
+   Simulation Conditions, TAG 5:
+   > experiments/rtpc/rtpc  is loaded with factory TEXT, variation original and run number 1
+   > local shift for target (1.2, 1.1, 30)mm
+   > option ACTIVEFIELDS none
+   > option ALIGN_ZAXIS no
+   > option ALLRAWS no
+   > option BANK_VERBOSITY 1
+   > option BEAM_P e-, 0.120*GeV, 0.0*deg, 0*deg
+   > option BEAM_V (0, 0, -37)cm
+   > option CATCH Maurizio
+   > option CHANGEVOLUMEMATERIALTO none
+   > option CHECK_OVERLAPS 0
+   > option COSMICAREA 0*cm, 0*cm, 0*cm, 50*cm
+   > option COSMICRAYS no
+   > option DATABASE no
+   > option DAWN_N 0
+   > option DBHOST no
+   > option DBPORT 0
+   > option DBPSWD no
+   > option DBUSER gemc
+   > option DEFAULT_MATERIAL none
+   > option DF no
+   > option DIGITIZATION_TIMESTAMP no
+   > option DIGITIZATION_VARIATION default
+   > option DISPLACE_FIELDMAP no
+   > option ELECTRONICNOISE no
+   > option ENERGY_CUT -1
+   > option EVN 1
+   > option EVTN 1
+   > option EXEC_MACRO no
+   > option FASTMCMODE 0
+   > option FIELDS_FILENAMES none
+   > option FIELD_DIR env
+   > option FIELD_PROPERTIES no
+   > option FIELD_VERBOSITY 0
+   > option FILTER_HADRONS 0
+   > option FILTER_HITS 0
+   > option FILTER_NULL_VARIABLES 0
+   > option FORCE_MUON_RADIATIVE_DECAY 0
+   > option G4FIELDCACHESIZE 
+   > option G4P_VERBOSITY 1
+   > option G4TRACK_VERBOSITY 0
+   > option GEN_VERBOSITY 0
+   > option GEO_VERBOSITY 1
+   > option GUIPOS (150, 150)
+   > option GUI_VERBOSITY 1
+   > option HALL_DIMENSIONS 20*m, 20*m, 20*m
+   > option HALL_FIELD no
+   > option HALL_MATERIAL G4_AIR
+   > option HIGH_RES 1
+   > option HIT_PROCESS_LIST clas12
+   > option HIT_VERBOSITY 1
+   > option INPUT_GEN_FILE gemc_internal
+   > option INTEGRATEDDGT yes
+   > option INTEGRATEDRAW no
+   > option ION_P no
+   > option LOG_MSG 
+   > option LOG_VERBOSITY 0
+   > option LUMI2_EVENT 0, 2*ns
+   > option LUMI2_P proton, 50*GeV, 175*deg, 180*deg
+   > option LUMI2_SPREAD_P 0*GeV, 0*deg, 0*deg
+   > option LUMI2_SPREAD_V (0, 0)cm
+   > option LUMI2_V (4, 0, 50)cm
+   > option LUMI_EVENT 0, 0*ns, 2*ns
+   > option LUMI_P e-, 11*GeV, 0*deg, 0*deg
+   > option LUMI_SPREAD_P 0*GeV, 0*deg, 0*deg
+   > option LUMI_SPREAD_V (0, 0)cm
+   > option LUMI_V (0, 0, -20)cm
+   > option MATERIAL_VERBOSITY 0
+   > option MAX_FIELD_STEP 0
+   > option MAX_X_POS 20000
+   > option MAX_Y_POS 20000
+   > option MAX_Z_POS 8000
+   > option MERGE_BGHITS no
+   > option MERGE_LUND_BG no
+   > option MIRROR_VERBOSITY 0
+   > option N 0
+   > option NGENP 10
+   > option NO_FIELD none
+   > option OUTPUT txt, PID_Test.txt
+   > option PARAMETER_VERBOSITY 0
+   > option PHYSICS STD + FTFP_BERT
+   > option PHYS_VERBOSITY 0
+   > option PHY_VERBOSITY 1
+   > option POLAR 100, 0*deg, 0*deg
+   > option PRINT_EVENT 100000
+   > option PRODUCTIONCUT 10
+   > option PRODUCTIONCUTFORVOLUMES no
+   > option PROPAGATE_DVERTEXTIME 0
+   > option QTSTYLE no
+   > option RANDOM TIME
+   > option RECORD_OPTICALPHOTONS 0
+   > option RECORD_PASSBY 0
+   > option REMOVESENSITIVITY none
+   > option RERUN_SELECTED 
+   > option RFSETUP no
+   > option RFSTART 0
+   > option ROTATE_FIELDMAP no
+   > option RUNNO 1
+   > option RUN_WEIGHTS no
+   > option SAVE_ALL_ANCESTORS 0
+   > option SAVE_ALL_MOTHERS 0
+   > option SAVE_SELECTED 
+   > option SCALE_FIELD no, 1
+   > option SHIFT_LUND_VERTEX (0, 0, 0)cm
+   > option SIGNALVT no
+   > option SKIPNGEN 0
+   > option SPREAD_P 0*GeV, 0*deg, 0*deg
+   > option SPREAD_V (0.0,0)cm
+   > option STEER_BEAM 0
+   > option SWITCH_MATERIALTO none
+   > option SYNRAD 0
+   > option TSAMPLING 4, 250
+   > option USE_GUI 1
+   > option VTRESOLUTION 0.1
+   > option gcard Polarizability.gcard
+   > option geometry 620x620
+   > target  is loaded with factory na, variation main and run number 1
+
+   Simulation JSON Conditions:  6:
+{
+  "fields": {
+    "SCALE_FIELD": [
+      {
+        "filename": "no",
+        "scale": 1.0
+      }
+    ]
+  },
+  "generator": {
+    "ALIGN_ZAXIS": [
+      {
+        "to:": "no"
+      }
+    ],
+    "BEAM_P": [
+      {
+        "momentum": 0.12,
+        "particleID": "e-",
+        "phi": 0.0,
+        "theta": 0.0
+      }
+    ],
+    "BEAM_V": [
+      {
+        "unit": "cm",
+        "vx": 0.0,
+        "vy": 0.0,
+        "vz": -37.0
+      }
+    ],
+    "COSMICAREA": [
+      {
+        "radius": 50.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    ],
+    "ION_P": [
+      {
+        "isPrimaryAPion": "no"
+      }
+    ],
+    "LUMI2_SPREAD_P": [
+      {
+        "denergy": 0.0,
+        "dphi": 0.0,
+        "dtheta": 0.0
+      }
+    ],
+    "LUMI_SPREAD_P": [
+      {
+        "denergy": 0.0,
+        "dphi": 0.0,
+        "dtheta": 0.0
+      }
+    ],
+    "MERGE_BGHITS": [
+      {
+        "bgfilename": "no"
+      }
+    ],
+    "MERGE_LUND_BG": [
+      {
+        "bgLundfilename": "no"
+      }
+    ],
+    "POLAR": [
+      {
+        "percentage": 100.0,
+        "phi": 0.0,
+        "theta": 0.0
+      }
+    ],
+    "SHIFT_LUND_VERTEX": [
+      {
+        "svx": 0.0,
+        "svy": 0.0,
+        "svz": 0.0,
+        "unit": "cm"
+      }
+    ],
+    "SPREAD_P": [
+      {
+        "denergy": 0.0,
+        "dphi": 0.0,
+        "dtheta": 0.0
+      }
+    ],
+    "SPREAD_V": [
+      {
+        "dr": 0.0,
+        "dz": 0.0,
+        "unit": "cm"
+      }
+    ]
+  },
+  "luminosity": {
+    "LUMI2_P": [
+      {
+        "momentum": 50.0,
+        "particleID": "proton",
+        "phi": 180.0,
+        "theta": 175.0
+      }
+    ],
+    "LUMI2_SPREAD_V": [
+      {
+        "denergy": 0.0,
+        "dphi": 0.0,
+        "dtheta": 0.0
+      }
+    ],
+    "LUMI2_V": [
+      {
+        "unit": "cm",
+        "vx": 4.0,
+        "vy": 0.0,
+        "vz": 50.0
+      }
+    ],
+    "LUMI_EVENT": [
+      {
+        "bunchTime": 2.0,
+        "nparticles": "0",
+        "timeWindow": 0.0
+      }
+    ],
+    "LUMI_P": [
+      {
+        "momentum": 11.0,
+        "particleID": "e-",
+        "phi": 0.0,
+        "theta": 0.0
+      }
+    ],
+    "LUMI_SPREAD_V": [
+      {
+        "dr": 0.0,
+        "dz": 0.0,
+        "unit": "cm"
+      }
+    ],
+    "LUMI_V": [
+      {
+        "unit": "cm",
+        "vx": 0.0,
+        "vy": 0.0,
+        "vz": -20.0
+      }
+    ]
+  },
+  "mysql": {
+    "DATABASE": [
+      {
+        "mysqlDatabase": "no"
+      }
+    ],
+    "DBHOST": [
+      {
+        "mysqlServer": "no"
+      }
+    ],
+    "DBPSWD": [
+      {
+        "mysqlUserPwd": "no"
+      }
+    ],
+    "DBUSER": [
+      {
+        "mysqlUserName": "gemc"
+      }
+    ]
+  },
+  "verbosity": {
+    "CATCH": [
+      {
+        "CATCH": "Maurizio"
+      }
+    ]
+  }
+}
+
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:08
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	1
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:20
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	2
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:22
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	3
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:30
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	4
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:31
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	5
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:32
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	6
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:34
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	7
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:35
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	8
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:36
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	9
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:36
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	10
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:38
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	11
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:39
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	12
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:41
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	13
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:43
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	14
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- rtpc  (1700, 0) ---- 
+   -- integrated digitized bank  (1702, 0) -- 
+    - (1702, 1) Sector:	1	
+    - (1702, 2) Layer:	-2.14748e+09	
+    - (1702, 3) Component:	-2.14748e+09	
+    - (1702, 4) Order:	0	
+    - (1702, 5) Time:	-nan	
+    - (1702, 6) ADC:	0	
+    - (1702, 7) Ped:	0	
+    - (1702, 8) TimeShift:	0	
+    - (1702, 99) hitn:	1	
+   -- End of integrated digitized bank.
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+    - Hit >na< Has 0 hit --- End of Generated Particles Bank -- 
+ ---- End of Event  ---- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:45
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	15
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:46
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	16
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:48
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	17
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:49
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	18
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:49
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	19
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:50
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	20
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:51
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	21
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
+ --- Header Bank -- 
+    - (10, 1) time:	Wed, 10.20.2021 20:18:52
+    - (10, 5) beamPol:	0
+    - (10, 3) evn:	22
+    - (10, 4) evn_type:	-1
+    - (10, 2) runNo:	1
+ --- End of Header Bank -- 
+ --- User Header Bank -- 
+ --- End of User Header Bank -- 
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 11   -  mom: (0,0,120) MeV   -  vert: (0,0,-370) mm
+ --- End of Generated Particles Bank -- 
